@@ -5,6 +5,12 @@ Here lies the posts thee shall receive.
 ## How to update image cache?
 Run the `update.sh` script while in root directory of the repository.
 
+### Without login
+```console
+bash update.sh
+```
+
+### With login
 You can also provide a dummy instagram account if you are having problems.
 
 Create a file named `secrets.env` as such in the root directory (it is gitignored so you don't need to worry) 
